@@ -1,0 +1,37 @@
+@CHARSET "UTF-8";
+
+.tweet {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #9CF;
+	height: auto;
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.tweet div.tweetLeft {
+	float:left;
+	width:25%;
+}
+
+.tweet div.tweetLeft .tweetTime {
+	font-size: small;
+}
+
+.tweet div.tweetLeft .tweetHref {
+	font-size: small;
+}
+
+.tweet div.tweetContent {
+	float:left;
+	width:75%;
+	font-size: large;
+}
+
+.tweet div.commentList {
+	float:left;
+	width:75%;
+	height:auto;
+	font-size: large;
+}

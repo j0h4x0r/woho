@@ -1,0 +1,103 @@
+@CHARSET "UTF-8";
+
+#newNoteHref {
+	text-decoration: none;
+	font-size: large;
+	background-color: #9CF;
+	margin: 5px;
+	padding: 5px;
+	color: #FFF;
+	line-height: 40px;
+}
+
+#newNote {
+	height: 280px;
+	width: 450px;
+	position: absolute;
+	z-index: 10;
+	background-color: #9CF;
+}
+
+#newNote .close {
+	float: left;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#newNote #leftNewNote {
+	float: left;
+	width: 65%;
+	height: 100%;
+	margin: 5px;
+}
+
+#newNote #leftNewNote input {
+	width: 100%;
+	font-size: large;
+}
+
+#newNote #leftNewNote #noteTextArea {
+	font-size: large;
+	width: 100%;
+	height: 180px;
+}
+
+#newNote #leftNewNote #sendNoteBtn {
+	font-size: large;
+	color: #9CF;
+	background-color: #FFF;
+	margin: 5px;
+	padding: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	font-weight: bolder;
+}
+
+#newNote #rightNewNote {
+	float: left;
+	width: 25%;
+	height: 100%;
+	margin: 5px;
+}
+
+#newNote #rightNewNote select {
+	width: 100%;
+	height: 78%;
+}
+
+
+.note {
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #9CF;
+	height: auto;
+	float: left;
+	width: 100%;
+	margin-top: 20px;
+}
+
+.note div.noteLeft {
+	float:left;
+	width:25%;
+}
+
+.note div.noteLeft .noteTime {
+	font-size: small;
+}
+
+.note div.noteLeft .noteHref {
+	font-size: small;
+}
+
+.note div.noteContent {
+	float:left;
+	width:75%;
+	font-size: large;
+}

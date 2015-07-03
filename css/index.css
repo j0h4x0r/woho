@@ -1,0 +1,77 @@
+@CHARSET "UTF-8";
+
+#page {
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
+#top h1 {
+	font-size: xx-large;
+	font-weight: bolder;
+	color: #9CF;
+}
+
+#divf1 {
+	float: left;
+	width: 40%;
+	margin: 10px;
+	padding: 10px;
+	border-right-width: medium;
+	border-right-style: solid;
+	border-right-color: #9CF;
+}
+
+#divf2 {
+	float: left;
+	width: 50%;
+	margin: 10px;
+	padding: 10px;
+}
+
+#errorMsg {
+	color:red;
+}
+
+input {
+	width:250px;
+	height:30px;
+	font-size:medium;
+	margin:10px;
+}
+
+input#login {
+	font-size: x-large;
+	background-color: #9CF;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 10px;
+	padding: 10px;
+	width: 100px;
+	color: #FFF;
+	height: auto;
+}
+
+input#register {
+	font-size: x-large;
+	background-color: #9C6;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 10px;
+	padding: 10px;
+	width: 100px;
+	color: #FFF;
+	height: auto;
+}

@@ -1,0 +1,109 @@
+@CHARSET "UTF-8";
+
+#comment{
+	height:15px;
+	font-size:12px;
+	line-height:15px;
+}
+#n-star{
+	width:79px;
+	height:15px;
+	background:url(../img/star.gif) no-repeat 0 0;
+}
+#star{
+	width:0px;
+	height:15px;
+	background:url(../img/star.gif) no-repeat 0 -15px;
+	font-size:0;
+	overflow:hidden;
+}
+
+#page {
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
+.topHref {
+	float: right;
+	padding-right: 5px;
+	padding-left: 5px;
+}
+
+#topList {
+	float: left;
+	width: 25%;
+}
+
+#rateFriend {
+	float: left;
+	width: 60%;
+}
+
+#choose {
+	text-decoration: none;
+	font-size: large;
+	background-color: #9CF;
+	margin: 5px;
+	padding: 5px;
+	color: #FFF;
+	line-height: 40px;
+}
+
+#chooseFriend {
+	height: 280px;
+	width: 450px;
+	position: absolute;
+	z-index: 10;
+	background-color: #9CF;
+	overflow: scroll;
+}
+
+#chooseFriend .close {
+	float: right;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#chooseFriend .friendName {
+	font-size: x-large;
+	line-height: 50px;
+}
+
+#rateTextArea {
+	height:100px;
+	width:100%;
+	resize:none;
+	font-size: large;
+	padding: 5px;
+}
+
+#publish {
+	font-size: x-large;
+	background-color: #9CF;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 5px;
+	padding: 5px;
+	width: 80px;
+	color: #FFF;
+}
+
+h2 {
+	font-size: xx-large;
+	font-weight: bolder;
+	color: #9CF;
+}
+
+.listTerm {
+	font-size: x-large;
+	line-height: 50px;
+	color: #9C6;
+}

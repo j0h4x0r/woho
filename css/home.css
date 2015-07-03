@@ -1,0 +1,83 @@
+@CHARSET "UTF-8";
+
+#page {
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
+.topHref {
+	float: right;
+}
+
+#navBar {
+	float:left;
+	width:25%;
+}
+
+#navBar a.pBar {
+	color:black;
+	font-size:25px;
+	line-height:40px;
+	text-decoration:none;
+}
+
+#navBar .cNavBar a.cBar {
+	color:black;
+	font-size:15px;
+	line-height:20px;
+	text-decoration:none;
+	margin-left:2em;
+}
+
+#rightSide {
+	float:left;
+	width:75%;
+}
+
+#tweetTextArea {
+	height:100px;
+	width:100%;
+	resize:none;
+	font-size: large;
+	padding: 5px;
+}
+#pubTweet {
+	margin: 5px;
+}
+
+#rightSide #main {
+	float: left;
+	height: auto;
+	width: 100%;
+	margin-top: 5px;
+	margin-bottom: 30px;
+	border-top-width: medium;
+	border-top-style: solid;
+	border-top-color: #9CF;
+	padding: 10px;
+}
+
+#tweetTextArea:focus {
+	resize: none;
+	border: thin solid #9CF;
+	font-size: large;
+	padding: 5px;
+}
+
+#publish {
+	font-size: x-large;
+	background-color: #9CF;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 5px;
+	padding: 5px;
+	width: 80px;
+	color: #FFF;
+}

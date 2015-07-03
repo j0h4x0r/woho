@@ -1,0 +1,54 @@
+@CHARSET "UTF-8";
+
+.commentList .commentArea {
+	font-size: small;
+	padding: 5px;
+	resize: none;
+	width: 100%;
+}
+
+.commentList .addCommentButton {
+	font-size: small;
+	background-color: #9CF;
+	margin: 5px;
+	padding: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	width: 60px;
+	color: #FFF;
+}
+
+.commentList .comment {
+	float:left;
+	width:100%;
+	height:auto;
+	margin-top: 10px;
+	border-bottom-width: thin;
+	border-bottom-style: solid;
+	border-bottom-color: #9C6;
+}
+
+.commentList .commentLeft {
+	float:left;
+	width:30%;
+}
+
+.commentList .commentTime {
+	font-size: small;
+}
+
+.commentList .commentHref {
+	font-size: small;
+}
+
+.commentList .commentContent {
+	float:left;
+	width:70%;
+	font-size: small;
+}

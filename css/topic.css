@@ -1,0 +1,154 @@
+@CHARSET "UTF-8";
+
+#page {
+	margin-left:auto;
+	margin-right:auto;
+	width:70%;
+}
+
+#topics {
+	position:relative;
+	width:450px;
+	height:450px;
+	margin: 20px;
+	float: left;
+	width: 30%;
+	padding-top: 10px;
+	padding-right: 20px;
+	padding-bottom: 10px;
+	padding-left: 10px;
+}
+#topics a {
+	position:absolute;
+	top:50%;
+	left:50%;
+	color:#fff;
+	font-weight:bold;
+	text-decoration:none;
+	padding: 3px 6px;
+	font-size: large;
+}
+
+#topics a:hover {
+	border: 1px solid #eee;
+	background-color: #9CF;
+}
+
+#topics .blue {
+	color:blue;
+}
+#topics .red {
+	color:red;
+}
+#topics .yellow {
+	color:yellow;
+}
+
+#rightSide {
+	float: left;
+	width: 50%;
+}
+
+#addTopicHref {
+	text-decoration: none;
+	font-size: large;
+	background-color: #9CF;
+	margin: 5px;
+	padding: 5px;
+	color: #FFF;
+	line-height: 40px;
+}
+
+#newTopic {
+	height: 300px;
+	width: 450px;
+	position: absolute;
+	z-index: 10;
+	background-color: #9CF;
+}
+
+#newTopic .close {
+	float: right;
+	color: #FFF;
+	text-decoration: none;
+	font-weight: bolder;
+}
+
+#newTopic input {
+	font-size: large;
+	margin: 5px;
+	padding: 5px;
+	width: 75%;	
+}
+
+#newTopic textarea {
+	font-size: large;
+	margin: 5px;
+	padding: 5px;
+	width: 75%;
+	height: 120px;
+}
+
+#newTopic button {
+	font-size: large;
+	color: #9CF;
+	background-color: #FFF;
+	margin: 5px;
+	padding: 5px;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	font-weight: bolder;
+	width: 65px;
+}
+
+#tweetTextArea {
+	height:100px;
+	width:100%;
+	resize:none;
+	font-size: large;
+	padding: 5px;
+}
+
+#tweetTextArea:focus {
+	resize: none;
+	border: thin solid #9CF;
+	font-size: large;
+	padding: 5px;
+}
+
+#publish {
+	font-size: x-large;
+	background-color: #9CF;
+	border-top-color: #FFF;
+	border-right-color: #FFF;
+	border-bottom-color: #FFF;
+	border-left-color: #FFF;
+	border-top-style: none;
+	border-right-style: none;
+	border-bottom-style: none;
+	border-left-style: none;
+	margin: 5px;
+	padding: 5px;
+	width: 80px;
+	color: #FFF;
+}
+
+#tot {
+	float: left;
+	height: auto;
+	padding: 10px;
+	margin-top: 5px;
+	margin-bottom: 30px;
+}
+
+#tpcTitle {
+	font-size: xx-large;
+	font-weight: bolder;
+	color: #9CF;
+}
